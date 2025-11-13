@@ -1,10 +1,15 @@
 import React from 'react'
+import ProductDeatilsHead from '../components/ProductDeatilsHead'
 
 const ProductDeatils = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+        <section id='product Detials'>
+          <div className="container">
+          <ProductDeatilsHead/>
+          </div>
+        </section>
+    </>
   )
 }
 
